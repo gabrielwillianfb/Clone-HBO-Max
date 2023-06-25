@@ -34,7 +34,7 @@ _As features são visuais, não possuindo integração com nenhuma API. O intuit
 
 <h2 id="topics">📦 Temas abordados</h2>
 
-O projeto possui como intuito aplicar os conceitos abordados na Trilha de CSS da `<a href="https://dio.me">`DIO `</a>`, ministrada pela instrutora `<a href="https://github.com/micheleambrosio">`Michele Ambrosio `</a>`.
+O projeto possui como intuito aplicar os conceitos abordados na Trilha de CSS da DIO.
 
 Recursos CSS presentes no projeto:
 
@@ -50,4 +50,4 @@ Recursos CSS presentes no projeto:
 
 <h2 id="demo">💻 Demonstração</h2>
 
-Você pode acessar ao resultado final do projeto [clicando aqui](https://micheleambrosio.github.io/hbomax/).
+Você pode acessar ao resultado final do projeto [clicando aqui](https://gabrielwillianfb.github.io/Clone-HBO-Max/).
