@@ -1,9 +1,13 @@
 @import url("global.css");
 
 body {
-  background-image: url("../images/background-movies-series.png");
+  background-image: url(../images/background-movies-series.png);
   background-size: cover;
   height: 100vh;
+}
+
+.menu {
+  position: relative;
 }
 
 .content {
@@ -16,19 +20,15 @@ body {
   padding: 24px;
 }
 
-.menu {
-  position: relative;
-}
-
 .login {
-  width: 100%;
-  max-width: 800px;
-  background-color: var(--form-bg-color);
-  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
   padding: 40px;
+  gap: 24px;
+  background-color: var(--form-bg-color);
 }
 
 .login__title {
@@ -43,10 +43,10 @@ body {
 }
 
 .login__field {
-  background: var(--form-field-bg-color);
+  background: var(--form-bg-color);
   border: var(--form-field-border);
-  border-radius: 8px;
   color: var(--text-color);
+  border-radius: 8px;
   padding: 16px;
   font-size: 1rem;
 }
@@ -71,18 +71,14 @@ body {
   font-weight: bold;
 }
 
-/* Media Queries */
-
 @media screen and (max-width: 480px) {
   body {
     height: auto;
   }
-
   .login__actions .button {
     display: block;
     margin-bottom: 24px;
   }
-
   .login__link {
     margin: 0;
   }
